@@ -19,7 +19,7 @@ library(scales)
 library(DT)
 
 # ---- Load data once, when the app starts ----
-gpu_sales <- read_csv("data/nvidia_gpu_sales_synthetic_2026.csv")
+gpu_sales <- read_csv("nvidia_gpu_sales_synthetic_2026.csv")
 
 # =====================================================================
 # UI — what gets drawn on screen
